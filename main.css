@@ -1,0 +1,57 @@
+body{
+	background:#ddf;
+}
+.container{
+	width:100%;
+}
+.link-column a.active, .link-column a.active:hover, .link-column a.active:focus, .link-column a.active:active{
+}
+.navbar{
+	background:#3F5870;
+	border-color:#3F5870;
+	border-radius:0px;
+	border-left-width:0px;border-right-width:0px;border-top-width:0px;
+	background-image:url("./navbar-background.png");
+	background-size: 100% auto; 
+	background-position:0% 35%; 
+	background-repeat:no-repeat;
+}
+.navbar-brand{
+	color:black;
+	font-family:'Ubuntu', sans-serif;
+}
+@media (max-width: 767px) {
+    .navbar {
+        background: #0A2455 !important; /*Add your own background*/
+    }
+}
+.navbar li a{
+	color:#ACC8C5 !important;
+	text-align:center;
+}
+.navbar li.active a, .navbar li a:hover, .navbar li a:focus, .navbar li a:active{
+	color:orange !important;
+	background:transparent !important;
+}
+
+.dropdown-menu{
+	background:#274259;
+}
+
+.dropdown-menu li a:hover, .dropdown-menu li a:focus, .dropdown-menu li a:active{
+	color:orange !important;
+}
+
+.collapse-button{
+	float:right;
+	cursor:pointer;
+}
+
+#search_bar{
+	width:400px;
+}
+
+.panel-body div{
+        overflow-x:auto;
+}
+
